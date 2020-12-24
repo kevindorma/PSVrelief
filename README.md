@@ -18,10 +18,9 @@ The code is written in Julia (and is the authors first package uploaded to GitHu
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The following lines of code are needed in a Jupyter Notebook (Julia shell) to pull the package from GitHub and use the package.
-
+The following lines of code are needed in a Jupyter Notebook (Julia shell) to pull the _unregistered_ package from GitHub and use the package.
 ~~~~
-Pkg.add("PSVrelief")
+Pkg.add(PackageSpec(url="https://github.com/kevindorma/PSVrelief"))
 using PSVrelief
 ~~~~
 
@@ -217,7 +216,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Kevin Dorma - [@kevinkorma](https://twitter.com/KevinDorma) - kevin@kevindorma.ca
+Kevin Dorma - [@kevindorma](https://twitter.com/KevinDorma) - kevin@kevindorma.ca
 
 Project Link: [https://github.com/kevindorma/PSVrelief](https://github.com/kevindorma/PSVrelief)
 
