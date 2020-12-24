@@ -12,7 +12,7 @@ using GridInterpolations
 
 export PSVvaporFlux, PSVvaporRate, PSVvaporSize, PSVliquidSize, PSVliquidRate
 export thermExpansionRate, poolFireReliefRate, PSVsteamFlux, PSVsteamRate, PSVsteamSize, liquidVaporizeReliefRate
-export waterPsat, waterTsat, getKsh, PSVareaOrifice, findPSVorifice
+export waterPsat, waterTsat, getKsh, PSVareaOrifice, PSVfindOrifice
 
 # to do
 # provide either PSV descriptor or area for rating.
