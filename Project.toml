@@ -1,0 +1,9 @@
+name = "PSVrelief"
+uuid = "59dad60d-04dc-4920-8443-c5f058bffa31"
+authors = ["Kevin Dorma <kevin@kevindorma.ca>"]
+version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GridInterpolations = "bb4c363b-b914-514b-8517-4eb369bc008a"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
